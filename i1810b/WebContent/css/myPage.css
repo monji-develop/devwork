@@ -1,0 +1,19 @@
+	/* myPage.jsp */
+
+	.myContent {
+		width: 800px;
+	}
+
+	.table_lg {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.table_lg tr th {
+		width: 300px;
+	}
+
+	table_lg th, table td {
+		padding: 10px;
+	}
+

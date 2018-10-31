@@ -1,0 +1,30 @@
+	/* login.jsp */
+
+	.loginContent {
+	    width: 800px;
+	}
+
+	.mainForm {
+		border-radius: 20px;
+	   	height: auto;
+	   	padding: 30px 10%;
+	   	background-color: #F2F2F2;
+	}
+
+	.box {
+		width: 100%;
+	}
+
+	.inputForm {
+		width: 98%;
+		height: 30px;
+		border-radius: 20px;
+		box-shadow: 0 0 8px steelblue;
+		margin: 10px;
+		margin-bottom: 20px;
+	}
+
+	#resetText {
+		text-align: right;
+		cursor : pointer;
+	}

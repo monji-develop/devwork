@@ -1,0 +1,343 @@
+@charset "utf-8";
+
+/* =============================== Reset CSSここから =============================== */
+	/* http://meyerweb.com/eric/tools/css/reset/
+		v2.0 | 20110126
+		License: none (public domain)
+		ブラウザ間でのCSSを統一させるために，ResetCSSを導入
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    font-size: 100%;
+	    font: inherit;
+	}
+
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+	    display: block;
+	}
+
+	body {
+	    line-height: 1;
+	}
+
+	ol, ul {
+	    list-style: none;
+	}
+
+	blockquote, q {
+	    quotes: none;
+	}
+
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	    content: '';
+	    content: none;
+	}
+
+	table {
+		border-spacing: 0 15px;
+	}
+
+	/* buttonのデフォルトcssをリセット */
+	button {
+		background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+	}
+
+	/* フォントの指定 */
+	* {
+		font-family:'Hiragino Kaku Gothic Pro W3','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+		text-decoration:none;
+		list-style: none;
+	}
+
+/* =============================== Reset CSSここまで =============================== */
+
+/* =============================== ヘッダーここから  =============================== */
+	header {
+		width: 100%;
+		height: 130px;
+		margin: auto;
+		background-color: #151515;
+	}
+
+	#top {
+		display: flex;
+		margin-bottom: 20px;
+	}
+
+	.submit_btn {
+		font-size: 18px;
+		font-color: white;
+	}
+
+	#top_left {
+		margin-right: auto;
+		margin-left: 180px;
+		font-size: 30px;
+	}
+
+	#logo_title {
+		color: white;
+		margin-top: 20px;
+	}
+
+	#top_right {
+		margin-left: auto;
+	}
+
+	#list_container {
+		display: flex;
+		justify-content: space-between;
+		width: 60%;
+		margin-top: 20px;
+	}
+
+	.lists {
+		width: 230px;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.nav_btn{
+        color: white;
+	}
+
+	.fas {
+		margin-right: 10px;
+	}
+
+	#bottom {
+		width: 1000px;
+		margin: auto;
+	}
+
+	.select_category {
+		background: #F2F2F2;
+		height: 36px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+
+	#search_container {
+		display: flex;
+	}
+
+	.search_btn {
+		background: #FFC107;
+		height: 36px;
+		width: 40px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+
+	.search_keywords {
+		width: 50rem;
+		height: 30px;
+		text-align: center;
+	}
+
+/* =============================== ヘッダーここまで =============================== */
+
+/* =============================== フッターここから =============================== */
+
+	#footer {
+		width: 100%;
+		height: 60px;
+		text-align: center;
+		font-size: 24px;
+		background: #151515;
+		line-height: 60px;
+		color: white;
+		/* footer邵ｺ�ｽｮposition邵ｺ�ｽｯ髫補扱�ｽ､諛��ｽｨ�ｿｽ */
+		position: fixed;
+		bottom: 0;
+		margin-top: 60px;
+	}
+
+/* =============================== フッターここまで =============================== */
+
+/* =============================== ボタンここから  =============================== */
+
+	.btn_box {
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.btn_primary {
+		margin-top: 30px;
+		width: 100%;
+		height: 40px;
+	    text-align: center;
+	    color: white;
+	    background-color: #2E64FE;
+	    font-size: 20px;
+	    border-radius: 30px;
+	}
+
+	.btn_secondary {
+		margin-top: 30px;
+		margin-bottom: 15px;
+		width: 100%;
+		height: 40px;
+	    text-align: center;
+	    color: white;
+	    background-color: gray;
+	    font-size: 20px;
+	    border-radius: 30px;
+	}
+
+	.btn_danger {
+		margin-top: 30px;
+		margin-bottom: 15px;
+		width: 100%;
+		height: 40px;
+	    text-align: center;
+	    color: white;
+	    background-color: #d9534f;
+	    font-size: 20px;
+	    border-radius: 30px;
+	}
+
+/* =============================== ボタンここまで =============================== */
+
+/* =============================== エラーメッセージここから  =============================== */
+
+	.errorMessage {
+		text-align: center;
+		font-family: Impact,Charcoal;
+		line-height: 25px;
+		margin-bottom: 10px;
+		color: red;
+	}
+
+/* =============================== エラーメッセージここまで =============================== */
+
+/* =============================== テーブルここから  =============================== */
+
+	table {
+		border-collapse: separate;
+		border-spacing: 0px 15px;
+		font-size: 15px;
+	}
+
+	.table tr th {
+		width: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+		background: #A4A4A4;
+	    vertical-align: middle;
+	    text-align: left;
+	    overflow: visible;
+	    position: relative;
+	    font-weight: normal;
+	    text-align: center;
+	}
+
+	.table th:after {
+		left: 100%;
+		top: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(255, 239, 204, 0);
+		border-left-color: #A4A4A4;
+		border-width: 10px;
+		margin-top: -10px;
+	}
+
+	.table td {
+		background: #F2F2F2;
+		font-size : 14px;
+		border-width: 1px;
+		padding-left: 40px;
+	}
+
+/* =============================== テーブルここまで =============================== */
+
+/* =============================== 共通化したいものここから =============================== */
+
+	/* 共通化したいものリスト
+	できれば，各ページで名前を揃えて共通化したい */
+
+	.home {
+		height: 400px;
+	}
+
+	.home h1 {
+	 	text-align: center;
+	 	margin: 30px;
+	 	font-size: 36px;
+	 }
+
+	 .contentForm {
+	    height: 100%;
+	    margin: 30px auto;
+	    border-radius: 20px;
+	    padding-top: 15px;
+	    margin-bottom: 100px;
+	}
+
+	 .pageTitle {
+	    font-size: 1.5em;
+	    padding-left: 20px;
+	    margin-bottom: 15px;
+	    position: relative;
+		border-left: solid 10px #A4A4A4;
+	}
+
+	.titleMessage {
+		font-size: 16px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+
+	.complete {
+		text-align: center;
+		background-color: #F2F2F2;
+		border-radius: 40px 0px;
+		width: auto;
+		height: auto;
+		margin: 50px;
+		padding: 35px;
+	}
+
+	.complete h1 {
+		font-weight: bold;
+		font-size: 25px;
+		margin-bottm: 20px;
+	}
+
+	.com_des {
+		margin: 30px;
+	}
+	.first{
+		font-size:25px;
+	}
+

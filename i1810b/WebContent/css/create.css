@@ -1,0 +1,77 @@
+/* 	ceateDestination.jsp
+	createDestinationConfirm.jsp
+	createDestinationComplete.jsp
+	createUser.jsp
+	createUserConfirm.jsp
+	createUserComplete.jsp */
+
+	.createContent {
+		width: 700px;
+	}
+
+ 	.mainForm {
+		border-radius: 20px;
+    	height: auto;
+    	background-color: #F2F2F2;
+    	padding: 30px 10%;
+	}
+
+	.box {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+ 	.inputForm {
+		width: 98%;
+		height: 30px;
+		border-radius: 20px;
+		box-shadow: 0 0 8px steelblue;
+		padding: 0 0 0 3%;
+  		width: 97%;
+  		margin-bottom: 20px;
+	}
+
+	.title {
+		margin-bottom:10px;
+ 	}
+
+	.hissu {
+		font-size: 11px;
+		background-color: #ff0000b8;
+		width: 30px;
+		padding-left: 3px;
+		padding-right: 4px;
+		color: white;
+		height: 10px;
+		margin-left: 14px;
+		border-radius: 8px;
+	}
+
+	.CUbox {
+		width: 100%;
+	}
+
+	.CUbox th {
+		margin-bottom: 10px;
+		border-right: dashed 2px black;
+		width: auto;
+		padding-right: 30px;
+	}
+
+	.CUbox td {
+		display: inline-block;
+		text-align: center;
+		margin-left: 30px;
+	}
+
+	.complete {
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+		background-color: #F2F2F2;
+		border-radius: 40px 0px;
+		width: auto;
+		height: auto;
+		margin: 50px;
+		padding: 35px;
+	}

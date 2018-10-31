@@ -1,0 +1,87 @@
+	/* cart.jsp */
+
+	.cartContent {
+		width: 700px;
+	}
+
+	#form1 {
+		width: 700px;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	.totalprice {
+		text-align: center;
+	}
+
+	.border {
+		border-top: 1px solid black;
+		margin: 15px 0px;
+	}
+
+	.product_image_checkbox {
+		position: relative;
+		float: left;
+	}
+
+	.checkbox {
+		position: absolute;
+		top: 150px;
+	}
+
+	.product_image {
+	  margin-left: 50px;
+	}
+
+	img {
+	    width: 300px;
+	    height: 300px;
+	}
+
+	.text {
+		margin-top: 30px;
+		margin-left: 60px;
+		float: left;
+	}
+
+	.name {
+		color: blue;
+		line-height: 1.5;
+	}
+
+	.product_name_kana {
+		padding-left: 75px;
+	}
+
+	.product_name {
+		font-size: 130%;
+	}
+
+	.price_count {
+		line-height: 1.5;
+	    margin: 20px auto 20px auto;
+	}
+
+	.price {
+		color: red;
+		font-size: 130%;
+	}
+
+	.company {
+		line-height: 1.5;
+	}
+
+	.subtotal {
+		margin-top: 20px;
+		font-size: 130%;
+	}
+
+	.totalprice {
+		color: red;
+		font-size: 180%;
+		margin: 50px 0 30px 0;
+	}
+
+	.floatclear {
+		clear: both;
+	}

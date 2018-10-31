@@ -1,0 +1,99 @@
+	/* resetPassword.jsp
+	resetPasswordConfirm.jsp
+	resetPasswordComplete.jsp */
+
+	.resetContent {
+		width: 800px;
+		border: dashed #A4A4A4;
+	}
+
+	.resetTitle {
+	    font-size: 1.5em;
+	    padding-left: 20px;
+	    margin-bottom: 25px;
+	    padding-top: 40px;
+	    text-align: center;
+	    position: relative;
+		padding-left: 25px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.resetTitle:before {
+		position: absolute;
+		content: '';
+		bottom: -3px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border: none;
+		border-left: solid 15px transparent;
+		border-bottom: solid 15px #A4A4A4;
+	}
+
+	.resetTitle:after {
+		position: absolute;
+		content: '';
+		bottom: -3px;
+		left: 10px;
+		width: 100%;
+		border-bottom: solid 3px #A4A4A4;
+	}
+
+	.fas {
+		margin: 10px;
+	}
+
+	.txt {
+		width: 90%;
+	}
+
+	.mainForm {
+		border-radius: 20px;
+    	height: auto;
+    	padding: 20px 10%;
+	}
+
+	.vertical_list_table {
+    	margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.vertical_list_table tr {
+		margin-bottom: 100px;
+	}
+
+	.vertical_list_table th {
+		background: #A4A4A4;
+		height: 40px;
+		width: 200px;
+	}
+
+	.vertical_list_table td {
+		background: #F2F2F2;
+		height: 40px;
+		width: 200px;
+		text-align: center;
+	}
+
+	.complete {
+		text-align: center;
+		background-color: #F2F2F2;
+		border-radius: 40px 0px;
+		width: auto;
+		height: auto;
+		margin: 50px;
+		padding: 35px;
+	}
+
+	.complete h1 {
+		font-weight: bold;
+		font-size: 25px;
+		margin-bottm: 20px;
+	}
+
+	.com_des {
+		margin: 30px;
+	}
+

@@ -1,0 +1,35 @@
+
+	/* purchaseHistory.jsp */
+
+	.purchaseContent {
+		width: 800px;
+	}
+
+	.purchaseDetails{
+		width: 800px;
+	    background-color: white;
+	    border-top: solid 20px #151515;
+	    margin: 15px 0 15px 0;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.left_contents {
+	    width: 48%;
+	    display: inline-block;
+	}
+
+	.right_contents {
+	    width: 48%;
+	    margin-left: 20px;
+	    display: inline-block;
+	    margin-bottom: 30px;
+	}
+
+	.purchaseHistory td{
+		padding-left: 20px;
+	}
+
+	img{
+		width:80%;/*「画像自体がleftImageボックスにおける横幅80%に収まる」の意*/
+	}
